@@ -184,18 +184,18 @@
 
 #email {
 	border-radius: 10px;
-	padding: 5px 10px;
-	width: 20%;
-	z-index: 0;
+    padding: 5px 10px;
+    width: 35%;
+    border: none;
+    min-height: 20px;
 }
 
 .button {
-	border-radius: 10px;
-	background-color: #ff4040;
-	font-size: 12px;
-	padding: 5px 10px;
-	z-index: 1;
-
+	border-radius: 8px;
+    background-color: #ff4040;
+    font-size: 12px;
+    padding: 5px;
+    float: right;
 }
 
 .footerColor{

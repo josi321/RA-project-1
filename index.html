@@ -5,80 +5,86 @@
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--font awesome-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!--font: raleway, sans-serif-->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet"> <!-- font: Playfair Display', serif-->
     </head>
     <body>
       <main>
       	<header>
       		<!--aloha logo, and cart icon-->
-          <img id="logo" src="assets/images/aloha-logo.svg" alt="aloha logo">
+          <img id="logo" class="position-relative" src="assets/images/aloha-logo.svg" alt="aloha logo">
 
-      		<img id="cart" src="assets/images/cart-icon.svg" alt="cart icon">
+      		<img id="cart" class="position-relative" src="assets/images/cart-icon.svg" alt="cart icon">
            
       	</header>
 
-      	<section id="banner">
+      	<section id="banner" class="bkgd position-relative">
       		<!--girl and background image-->
-      		<div id="girl"></div> <!--making the girl a part of the background in css, that's why she's not here in the html-->
-          <div id="text">
+      		<div id="girl" class="bkgd position-absolute"></div> <!--making the girl a part of the background in css, that's why she's not here in the html-->
+          <div id="text" class="fontPD width-100 text-shadow-grey fontWhite txtCenter position-absolute">
       		  <h1>NEW COLLECTION</h1>
           </div>
-          <div id="SS2016"  
+          <div id="SS2016" class="fontPD text-shadow-grey width-100 fontWhite txtCenter position-absolute">  
       		  <h2>Spring/Summer 2016</h2>
           </div>
       	</section>
 
-      	<section class="about">
+      	<section class="about txtCenter">
       		<!--call to action section-->
-      		<h3 id="handCraft">Hand-Crafted <span class="bold">Styles</span></h3>
-      		<p id="cta">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our <br> current selection of products or sign-up for updates below.</p>
+      		<h3 class= "fontPD" id="handCraft">Hand-Crafted <span class="bold">Styles</span></h3>
+      		<p id="cta" class="fontR">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our <br> current selection of products or sign-up for updates below.</p>
       	</section>	
 
         <hr> 
 
       	<section id="products" class="about">
           <!--Product Roll-->
-          <h2 id="mostLoved">Most-Loved <span class="bold">Products</span></h2>
+          <h2 class="fontPD txtCenter" id="mostLoved">Most-Loved <span class="bold">Products</span></h2>
             <div id="product-roll">
-              <div class="item-width-25">
+              <div class="item-width-25 txtCenter">
                   <img src="assets/images/stretch-knit-dress.jpg" alt="stretch dress">
-                  <p class="description">DRESSES</p>
-                  <h4 class="productColor">Stretch Knit Dress</h4>
-                  <p class="price">$169.00</p>
+                  <p class="description fontR">DRESSES</p>
+                  <h4 class="productColor fontPD">Stretch Knit Dress</h4>
+                  <p class="price fontR">$169.00</p>
               </div>
 
-              <div class="item-width-25">
+              <div class="item-width-25 txtCenter">
                   <img src="assets/images/cotton-blue-shirt.jpg" alt="cotton shirt">
-                  <p class="description">SHIRTS</p>
-                  <h4 class="productColor">Cotton Blue Shirt</h4>
-                  <p class="price">$89.00</p>
+                  <p class="description fontR">SHIRTS</p>
+                  <h4 class="productColor fontPD">Cotton Blue Shirt</h4>
+                  <p class="price fontR">$89.00</p>
               </div>
 
-              <div class="item-width-25">
+              <div class="item-width-25 txtCenter">
                   <img src="assets/images/checked-stretch-dress.jpg" alt="red stretch dress">
-                  <p class="description">DRESSES</p>
-                  <h4 class=productColor>Checked Stretch Dress</h4>
-                  <p class="price">$129.00</p>
+                  <p class="description fontR">DRESSES</p>
+                  <h4 class=productColor fontPD">Checked Stretch Dress</h4>
+                  <p class="price fontR">$129.00</p>
               </div>
 
-              <div class="item">
+              <div class="item-width-25 txtCenter">
                   <img src="assets/images/blue-hipster-backpack.jpg" alt="hipster bag">
-                  <p class="description">BAGS</p>
-                  <h4 class="productColor">Blue Hipster Backpack</h4>
-                  <p class="price">$69.00</p>
+                  <p class="description fontR">BAGS</p>
+                  <h4 class="productColor fontPD">Blue Hipster Backpack</h4>
+                  <p class="price fontR">$69.00</p>
                </div>   
-
             </div>
+
+            <div>
+              <div style="float: left;"></div>  
+              <div style="clear: both;"></div>
+            </div>  
 
       	</section>
 
-      	<section id="subscription">
+      	<section id="subscription" class="bkgd">
       		<!--Subscription, add the wave background here-->
-          <h3 class="sign-up">Sign-Up for <span class="boldtxt">Updates</span></h3>
-          <p id="stayUpdated">Stay updated on our latest product releases, be first to find out about upcoming <br> sales, and get free style tips from our blog. Unsubscribe at anytime.</p>
-          <div class="emailForm">
+          <h3 class="sign-up txtCenter fontWhite">Sign-Up for <span class="boldtxt fontPD fontWhite">Updates</span></h3>
+          <p id="stayUpdated" class="fontR fontWhite txtCenter">Stay updated on our latest product releases, be first to find out about upcoming <br> sales, and get free style tips from our blog. Unsubscribe at anytime.</p>
+          <div class="emailForm txtCenter position-relative">
             <div id="email-btn">
               <input id="email" type="text" placeholder="Your Email">
-              <button type="button" class= "button">Subscribe</button>
+              <button type="button" class= "button fontWhite fontR position-absolute">Subscribe</button>
              </div> 
           </div>
       	</section>
@@ -88,13 +94,13 @@
       		<!--footer stuff-->
          <div class="footerColor">
           <div class="info">
-          <p class= "infoWhite"> &copy; 2016 Aloha Apperel Co. <br>Powered by HTML and CSS.</p>
-          <p class="infoWhite" id="phone"> 604-604-6040. info@alohaapperel.com</p>
-          <p id="infoGrey">1490 W Broadway <br>
+          <p class= "infoWhite fontPD fontWhite"> &copy; 2016 Aloha Apperel Co. <br>Powered by HTML and CSS.</p>
+          <p class="infoWhite fontPD fontWhite" id="phone"> 604-604-6040. info@alohaapperel.com</p>
+          <p id="infoGrey" class="fontPD">1490 W Broadway <br>
           Vancouver, BC, Canada</p>
           </div>
 
-          <div class="social infoWhite">
+          <div class="social fontR fontWhite">
             <ul>
               <li><i class="fa fa-facebook"></i> Facebook</li>
               <li><i class="fa fa-twitter"></i> Twitter</li>
@@ -104,6 +110,12 @@
             </ul>
           </div> 
          </div> 
+
+         <div>
+            <div style="float: left;"></div>  
+            <div style="clear: both;"></div>
+         </div> 
+
       	</footer>
 
      </body>

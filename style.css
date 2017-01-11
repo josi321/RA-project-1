@@ -33,6 +33,10 @@
 	position: absolute;
 }
 
+.text-shadow-grey {
+	text-shadow: 2px 2px 3px grey;
+}
+
 /*style header*/
 
 
@@ -77,9 +81,7 @@
 	top: 42%;
 	z-index: 2;
 }
-.text-shadow-grey {
-	text-shadow: 2px 2px 3px grey;
-}
+
 #SS2016 {
 	font-size: 75px;
 	font-style: bold;
@@ -154,7 +156,7 @@
 	background-image: url("assets/images/wave-bkgd.jpg");
 	background-position: relative;
 	background-position: bottom; /*this is make the entire wave pic show bc its loading from the bottom up*/
-	min-height: 44vh;
+	min-height: 55vh;
 	z-index: 0;
 }
 
@@ -162,7 +164,7 @@
 	z-index: 1;
 	font-size: 40px;
 	font-style: italic;
-	padding-top: 50px;
+	padding-top: 110px;
 }
 
 .boldtxt {
@@ -211,7 +213,7 @@
 .footerColor{
 	background-color: #262626;
 	margin-top: 10px;
-	min-height: 39vh;
+	min-height: 35vh;
 }
 
 .info {
@@ -219,7 +221,7 @@
 }
 
 .infoWhite {
-	padding-top: 70px;
+	padding-top: 50px;
 	padding-left: 40px;
 	padding-bottom: 20px;
 	font-family: serif;
@@ -238,9 +240,9 @@
 }
 
 .social {
-	padding-top: 70px;
+	padding-top: 50px;
 	padding-left:85%;
 	font-weight: lighter;
-	line-height: 150%;
+	line-height: 200%;
 }
 	

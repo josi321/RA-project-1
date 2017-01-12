@@ -63,7 +63,7 @@
 .bolded {font-style: bold;}
 
 .padL-40 {padding-left: 40px;}
-/*style header*/
+
 
 
 #logo {
@@ -128,7 +128,7 @@
 
 .cta {
 	font-size: 15px;
-	color: #a9a9a9;
+	
 }
 
 #mostLoved{
@@ -216,7 +216,7 @@
 	border-radius: 50px;
     background-color: #ff4040;
     width: 25%;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
 }
 

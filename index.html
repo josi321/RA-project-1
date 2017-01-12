@@ -12,57 +12,57 @@
       <main>
       	<header>
       		<!--aloha logo, and cart icon-->
-          <img id="logo" class="position-relative" src="assets/images/aloha-logo.svg" alt="aloha logo">
+          <img id="logo" class="position-relative floatL" src="assets/images/aloha-logo.svg" alt="aloha logo">
 
-      		<img id="cart" class="position-relative" src="assets/images/cart-icon.svg" alt="cart icon">
+      		<img id="cart" class="position-relative floatR" src="assets/images/cart-icon.svg" alt="cart icon">
            
       	</header>
 
       	<section id="banner" class="bkgd position-relative">
       		<!--girl and background image-->
       		<div id="girl" class="bkgd position-absolute"></div> <!--making the girl a part of the background in css, that's why she's not here in the html-->
-          <div id="text" class="fontPD width-100 text-shadow-grey fontWhite txtCenter position-absolute">
+          <div id="text" class="fontPD width-100 text-shadow-grey fontWhite txtCenter position-absolute bolded">
       		  <h1>NEW COLLECTION</h1>
           </div>
-          <div id="SS2016" class="fontPD text-shadow-grey width-100 fontWhite txtCenter position-absolute">  
+          <div id="SS2016" class="fontPD text-shadow-grey width-100 fontWhite txtCenter position-absolute bolded">  
       		  <h2>Spring/Summer 2016</h2>
           </div>
       	</section>
 
       	<section class="about txtCenter">
       		<!--call to action section-->
-      		<h3 class= "fontPD" id="handCraft">Hand-Crafted <span class="bold">Styles</span></h3>
-      		<p id="cta" class="fontR">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our <br> current selection of products or sign-up for updates below.</p>
+      		<h3 class= "fontPD italic" id="handCraft">Hand-Crafted <span class="bold">Styles</span></h3>
+      		<p class="cta fontR font-Light">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our <!--<br>--><p class="cta fontR line-200">current selection of products or sign-up for updates below.</p>
       	</section>	
 
         <hr> 
 
       	<section id="products" class="about">
           <!--Product Roll-->
-          <h2 class="fontPD txtCenter" id="mostLoved">Most-Loved <span class="bold">Products</span></h2>
+          <h2 class="fontPD txtCenter italic" id="mostLoved">Most-Loved <span class="bold">Products</span></h2>
             <div id="product-roll">
-              <div class="item-width-25 txtCenter">
+              <div class="item-width-25 txtCenter floatL">
                   <img src="assets/images/stretch-knit-dress.jpg" alt="stretch dress">
                   <p class="description fontR">DRESSES</p>
                   <h4 class="productColor fontPD">Stretch Knit Dress</h4>
                   <p class="price fontR">$169.00</p>
               </div>
 
-              <div class="item-width-25 txtCenter">
+              <div class="item-width-25 txtCenter floatL">
                   <img src="assets/images/cotton-blue-shirt.jpg" alt="cotton shirt">
                   <p class="description fontR">SHIRTS</p>
                   <h4 class="productColor fontPD">Cotton Blue Shirt</h4>
                   <p class="price fontR">$89.00</p>
               </div>
 
-              <div class="item-width-25 txtCenter">
+              <div class="item-width-25 txtCenter floatL">
                   <img src="assets/images/checked-stretch-dress.jpg" alt="red stretch dress">
                   <p class="description fontR">DRESSES</p>
                   <h4 class=productColor fontPD">Checked Stretch Dress</h4>
                   <p class="price fontR">$129.00</p>
               </div>
 
-              <div class="item-width-25 txtCenter">
+              <div class="item-width-25 txtCenter floatL">
                   <img src="assets/images/blue-hipster-backpack.jpg" alt="hipster bag">
                   <p class="description fontR">BAGS</p>
                   <h4 class="productColor fontPD">Blue Hipster Backpack</h4>
@@ -77,13 +77,13 @@
 
       	</section>
 
-      	<section id="subscription" class="bkgd">
+      	<section id="subscription" class="bkgd bkgd-relative-bot">
       		<!--Subscription, add the wave background here-->
-          <h3 class="sign-up txtCenter fontWhite text-shadow-grey">Sign-Up for <span class="boldtxt fontPD fontWhite">Updates</span></h3>
-          <p id="stayUpdated" class="fontR fontWhite txtCenter">Stay updated on our latest product releases, be first to find out about upcoming <br> sales, and get free style tips from our blog. Unsubscribe at anytime.</p>
+          <h3 class="sign-up txtCenter fontWhite text-shadow-grey italic">Sign-Up for <span class="boldtxt fontPD fontWhite">Updates</span></h3>
+          <p id="stayUpdated" class="fontR fontWhite txtCenter font-Light line-200">Stay updated on our latest product releases, be first to find out about upcoming <br> sales, and get free style tips from our blog. Unsubscribe at anytime.</p>
           <div class="sub-Form txtCenter position-absolute">
-              <input class="email" type="text" placeholder="Your Email">
-              <input class="submitButton" type="submit" placeholder="Subscribe">
+              <input class="email floatL" type="text" placeholder="Your Email">
+              <input class="submitButton floatR" type="submit" placeholder="Subscribe">
           </div>
       	</section>
       </main>  
@@ -91,14 +91,14 @@
       	<footer>
       		<!--footer stuff-->
          <div class="footerColor">
-          <div class="info">
-          <p class= "infoWhite fontPD fontWhite"> &copy; 2016 Aloha Apperel Co. <br>Powered by HTML and CSS.</p>
+          <div id="email" class="floatL">
+          <p class= "infoWhite fontPD fontWhite line-150"> &copy; 2016 Aloha Apparel Co. <br>Powered by HTML and CSS.</p>
           <p class="infoWhite fontPD fontWhite" id="phone"> 604-604-6040. info@alohaapperel.com</p>
-          <p id="infoGrey" class="fontPD">1490 W Broadway <br>
-          Vancouver, BC, Canada</p>
+          <p id="infoGrey" class="fontPD line-150">1490 W Broadway</p>
+          <p id="infoGrey" class="fontPD line-150"> Vancouver, BC, Canada</p>
           </div>
 
-          <div class="social fontR fontWhite">
+          <div class="social fontR fontWhite font-Light line-200">
             <ul>
               <li><i class="fa fa-facebook"></i> Facebook</li>
               <li><i class="fa fa-twitter"></i> Twitter</li>

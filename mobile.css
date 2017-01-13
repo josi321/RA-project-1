@@ -1,0 +1,67 @@
+.container {
+   padding: 0 2%;
+   margin: 0 auto;
+   max-width: 1240px;
+   width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.header-pad{
+	padding-bottom: .5rem;
+	padding-top: 1rem;
+}	
+
+.logo {
+	width:200px;
+	float: left;
+}
+
+.cart {
+	width: 65px;
+	float: right;
+}
+
+.banner {
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.3),transparent),
+	url("assets/images/banner-girl.png") center bottom,
+	url("assets/images/flower-bkgd.jpg") center;
+	background-size: cover, 230px 510px, contain;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: relative;
+	bottom: 0px;
+}
+
+
+
+.banner-text {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 18% 0;
+}
+
+.banner-h1 {
+	font-family: 'Playfair display', serif;
+	font-size: 1rem;
+}
+
+.banner-h2 {
+	font-family: 'Playfair display', serif;
+	font-size: 3.2rem;
+	line-height: 2;
+}
+
+.text-shadow {
+	text-shadow: 0.04em 0.05em #656565;
+}
+
+.fontPD {
+	font-family: 'Playfair Display', serif;
+}

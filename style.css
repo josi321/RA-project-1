@@ -1,266 +1,256 @@
-
-/*clearfix> 
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
+.container {
+   padding: 0 2%;
+   margin: 0 auto;
+   max-width: 1240px;
+   width: 100%;
 }
- 
-.cf:after {
-    clear:both;
-} */
 
-/*common class styles*/
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.header-pad{
+	padding-bottom: .5rem;
+	padding-top: 1rem;
+}	
+
+.logo {
+	width:200px;
+	float: left;
+}
+
+.cart {
+	width: 65px;
+	float: right;
+}
+
+.banner {
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.3),transparent),
+	url("assets/images/banner-girl.png") center bottom,
+	url("assets/images/flower-bkgd.jpg") center;
+	background-size: cover, /*230px 510px*/ 18% 90%, contain;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: relative, absolute, relative;
+	bottom: 0px;
+}
+
+.banner-text {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 18% 0;
+}
+
+.banner-h1 {
+	font-family: 'Playfair display', serif;
+	font-size: 1rem;
+}
+
+.banner-h2 {
+	font-family: 'Playfair display', serif;
+	font-size: 3.3rem;
+	line-height: 2;
+}
+
+.text-shadow {
+	text-shadow: 0.04em 0.05em #656565;
+}
 
 .fontPD {
 	font-family: 'Playfair Display', serif;
 }
 
 .fontR {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-.width-100{
-	width: 100%
+.about {
+	text-align: center;	
+	border-bottom: 1px solid #A9A9A9;
 }
 
-.bkgd {
-	background-size: cover;
-	background-repeat: no-repeat;
+.h3-text {
+	font-size: 2.5rem;
+	line-height: 250%;
+	padding: 3%;
+	margin-bottom: 2%;
+	font-style: italic;
+	font-weight: normal;
+	font-family: 'Playfair display', serif;
 }
-
-.bkgd-relative-bot {
-	background-position: relative;
-	background-position: bottom;
-}
-
-.fontWhite {
-	color: white;
-}
-
-.txtCenter {
-	text-align: center;
-}
-
-.position-relative {
-	position: relative;
-}
-
-.position-absolute {
-	position: absolute;
-}
-
-.text-shadow-grey {
-	text-shadow: 2px 2px 3px grey;
-}
-
-.font-Light {
-	font-weight: lighter;
-}
-
-.floatL{
-	float: left;
-}
-
-.floatR{
-	float: right;
-}
-
-.line-150 {line-height: 150%}
-
-.line-200 {line-height: 200%}
-
-.italic {font-style: italic;}
-
-.bolded {font-style: bold;}
-
-.padL-40 {padding-left: 40px;}
-
-.border-none {border: none};
-
-
-
-#logo {
-	width: 200px;
-	margin-left: 30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-}
-
-#cart {
-	width: 65px;
-	margin: 30px;
-}
-/*style banner*/
-
-#banner {
-	clear:both;
-	background-image: url("assets/images/flower-bkgd.jpg");
-	min-height: 80vh;
-	z-index: 0;
-}
-
-#girl {
-	width: 20%; /* bc the girl only takes up 20% of the banner*/
-	height: 90%; /*according to the pic she's ~90% tall of the banner*/
-	background-image: url("assets/images/banner-girl.png");
-	/*position: girl is absolute position relative to flower background*/
-	bottom: 0; /*so the girl's legs touch the bottom of banner*/
-	left: 50%; /*start at 50% for center*/
-	margin-left: -10%; /*gril div box is place directly on the 50% line, so we should move her 10% to the left to actually center her*/
-	z-index: 1; /*and the text should be 2, so its ontop of the girl*/
-
-}
-
-#text {
-	font-size: 20px;
-	top: 42%;
-	z-index: 2;
-}
-
-#SS2016 {
-	font-size: 75px;
-	top: 50%;
-	z-index: 2;
-	padding-top: 3px;
-	padding-left: 1%;
-}
-
-/*style the about/call to action section*/
-
-.about{
-	padding: 50px;
-} 
-
-#handCraft{
-	font-size: 40px;
-	color: #4d4d4d;
-	padding-bottom: 20px;
-}
-
-
-.cta {
-	font-size: 15px;
-	
-}
-
-#mostLoved{
-	font-size: 40px;
-	color: #4d4d4d;
-	padding-bottom: 20px
-}
-
-.bold {
+span {
 	font-style: normal;
 	font-weight: bold;
-	color: #202020;
+	font-family: 'Playfair display', serif;
 }
 
-/*style product roll*/
-
-.item-width-25 {
-	width: 25%;
-	padding-top:10px;
+.h3-text p {
+	font-size: 1rem;
+	/*padding-top: 5%;*/
+	line-height: 200%;
+	/*font-style: normal;*/
 }
 
-.description {
-	color:#9e9e9e;
-	font-size: 9px;
+.
+
+.bold-text {
 	font-style: normal;
+	font-weight: bold;
 }
 
-.productColor{
-	font-size: 20px;
+.products {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 6%
+}
+
+.item-width-25 li {
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+
+.item-width-25 h4 {
+	font-size: 1.35rem;
 	color:#ff4040;
 	padding-top:15px; 
 	padding-bottom: 15px;
 }
 
-.price {
-	color:#9e9e9e;
-	font-size: 12px;
-}
-/*style subscription*/
-
-#subscription {
-	background-image: url("assets/images/wave-bkgd.jpg");
-	min-height: 55vh;
-	z-index: 0;
+.item-width-25 h1 {
+	font-size:0.6rem;
+	color: #969696;
 }
 
-.sign-up {
-	z-index: 1;
-	font-size: 40px;
-	padding-top: 110px;
+.item-width-25 p {
+   color: #969696;
+   font-size: 0.75rem;
+   font-weight: bold;
 }
 
-.boldtxt {
-	font-style: normal;
-	font-weight: bold;
+
+.signup {
+	background: linear-gradient(rgba(0,0,0,0.3),transparent),
+	url("assets/images/wave-bkgd.jpg") center bottom no-repeat;
+	min-height: 60vh;
 }
 
-#stayUpdated {
-	font-size: 15px;
-	padding-top: 30px;
+.subscription{
+	text-align: center;
+	padding: 5% 0;
 }
+
+
+.subscription h3 {
+	font-size: 2rem;
+	line-height: 250%;
+	padding: 2% 0 0%;
+	font-style: italic;
+	color: white;
+}
+
+
+.subscription p {
+	font-size: 1rem;
+	line-height: 200%;
+	font-style: normal;	
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+/*.line-break {
+	padding-bottom: 3%;
+}*/
 
 .sub-Form {
-	/*padding-top: 40px;
-	padding-bottom: 30px;*/
-
-	padding: 3px;
+	padding: 0.3rem;
 	border-radius: 50px;
 	background-color: white;
 	width: 50%;
-	margin-left: 26%;
+	/*margin-left: 22%;*/
 	margin-top: 15px;
+	/*position: absolute;*/
+	text-align: center;
+	display: inline-block;
 }
 
 
 .email {
 	border-radius: 10px;
     padding: 5px 10px;
-    width: 70%;
-    min-height: 20px;
+    width: 65%;
+    min-height: 1.25rem;
+    float: left;
+    border: none;
 }
 
 .submitButton {
 	border-radius: 50px;
     background-color: #ff4040;
-    width: 25%;
-    font-size: 14px;
-    padding: 6px;
+    width: 19%;
+    font-size: 0.875rem;
+    padding: 1%;
+    float: right;
+    color: white	
+    border:none;
 }
 
-.footerColor{
-	background-color: #262626;
-	margin-top: 10px;
-	min-height: 35vh;
+.footer {
+   background-color: #262626;
+   color: white;
+   font-family: 'Playfair Display Web', serif;
+   /*padding: 4rem 0;*/
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   margin-top: 0.8%;
+   width: 100%;
+}
+
+.footer a {
+   color: white;
 }
 
 
-.infoWhite {
-	padding-top: 50px;
-	padding-bottom: 20px;
+.contactUs {
+   float: left;
+   line-height: 150%;
+   padding: 0px 5%;
 }
 
-#phone {
-	padding-top: 0px;
+.contact,
+.phone {
+   margin-bottom: 1rem;
 }
 
-
-#infoGrey {
-	color: #9e9e9e;
+.address {
+   color: #9e9e9e;
 }
 
 .social {
-	padding-top: 50px;
-	padding-left:85%;
+   float: right;
+   font-family: 'Raleway', sans-serif;
+   padding-right: 4rem;
+   line-height: 150%;
+
 }
 
-i {
+.social i {
   display: inline-block;
   margin-right: 1em;
 }
-	
+
+
+
+
+
+
+
+
+
+
+
+

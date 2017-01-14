@@ -46,7 +46,7 @@
 }
 
 .banner-h1 {
-	font-family: 'Playfair display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 }
 
@@ -243,8 +243,80 @@ span {
   margin-right: 1em;
 }
 
+/*MOBILE RESPONSIVE SETTINGS!!!!!*/
 
+@media screen and (max-width:600px){
 
+.logo {
+    width: 25%;
+    float: left;
+    padding-right: 1%;
+}
+
+.cart {
+    width: 9%;
+    float: right;
+    padding-right: 4%;
+}
+
+.text-shadow {
+    text-shadow: 0.04em 0.03em #656565;
+}
+
+.banner-h1 {
+    font-size: 1.2rem;
+}
+
+.banner-h2 {
+    font-size: 2.6rem;
+    line-height: 2;
+}
+
+.about {
+	padding: 6% 0 9% 0;
+}
+.h3-text {
+    line-height: 260%;
+ }
+
+.h3-text p {
+    line-height: 248%;
+ {
+
+.products {
+    padding-top: 6%;
+}    
+
+.item-width-25 li {
+    float: left;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    display: inline-block;
+    padding-bottom: 7%;
+}
+
+.signup {
+    min-height: 37vh;
+}
+
+.subscription p {
+    font-size: 1.05rem;
+    padding: 0px 2%;
+}
+
+.submitButton {
+    width: 25%;
+    font-size: 0.685rem;
+}
+
+.contactUs {
+	padding: 6% 33%;
+	display: block;
+	clear: both;
+	width: 100%;
+	font-size: 1.3rem;
+}
 
 
 

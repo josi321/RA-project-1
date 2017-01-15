@@ -281,11 +281,11 @@ span {
 
 .h3-text p {
     line-height: 248%;
- {
+ }
 
 .products {
-    padding-top: 6%;
-}    
+	padding-top: 6%;
+}   
 
 .item-width-25 li {
     float: left;
@@ -311,18 +311,35 @@ span {
 }
 
 .contactUs {
-	padding: 6% 33%;
+	padding: 6% 0%;
 	display: block;
 	clear: both;
 	width: 100%;
 	font-size: 1.3rem;
 }
 
+.contact, .phone {
+    margin-bottom: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.address {
+    text-align: center;
+    vertical-align: middle;
+}
 
+.social span {
+	display:none;
+}
 
-
-
+.social ul {
+   /* list-style: none;*/
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 0 33%;
+}
 
 
 

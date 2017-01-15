@@ -95,13 +95,6 @@ span {
 	/*font-style: normal;*/
 }
 
-.
-
-.bold-text {
-	font-style: normal;
-	font-weight: bold;
-}
-
 .products {
 	text-align: center;
 	padding-top: 1%;
@@ -195,7 +188,7 @@ span {
     font-size: 0.875rem;
     padding: 1%;
     float: right;
-    color: white	
+    color: white;	
     border:none;
 }
 
@@ -245,7 +238,7 @@ span {
 
 /*MOBILE RESPONSIVE SETTINGS!!!!!*/
 
-@media screen and (max-width:600px){
+@media screen and (min-width: 400px) and (max-width:600px){
 
 .logo {
     width: 25%;
@@ -308,6 +301,7 @@ span {
 .submitButton {
     width: 25%;
     font-size: 0.685rem;
+    color: white;
 }
 
 .contactUs {
@@ -328,6 +322,9 @@ span {
     text-align: center;
     vertical-align: middle;
 }
+.social {
+    padding: 0 10%;
+}
 
 .social span {
 	display:none;
@@ -340,6 +337,52 @@ span {
     margin: auto;
     padding: 0 33%;
 }
+}
+
+/*TABLET RESPONSIVE CSS!!!!!*/
+@media only screen and (min-width: 601px) and (max-width: 1050px){ 
+
+.logo {
+    width: 16%;
+    float: left;
+}
+
+.cart {
+    width: 5%;
+    float: right;
+    padding-right: 4%;
+}
+
+.banner-h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.banner-h2 {
+    font-size: 3.5rem;
+}
+
+.item-width-25 li {
+    float: left;
+    text-align: center;
+    width: 50%;
+    clear: none;
+}
+
+.signup {
+    min-height: 45vh;
+}
+.contactUs {
+    padding: 0px 8%;
+}    
+
+.social {
+    padding-right: 5rem;
+} 
+
+}
+
+
 
 
 

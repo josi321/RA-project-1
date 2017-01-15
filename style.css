@@ -129,7 +129,7 @@ span {
 .signup {
 	background: linear-gradient(rgba(0,0,0,0.3),transparent),
 	url("assets/images/wave-bkgd.jpg") center bottom no-repeat;
-	min-height: 60vh;
+	min-height: 35vh;
 }
 
 .subscription{
@@ -186,7 +186,7 @@ span {
     background-color: #ff4040;
     width: 19%;
     font-size: 0.875rem;
-    padding: 1%;
+    padding: 3%;
     float: right;
     color: white;	
     border:none;
@@ -225,10 +225,13 @@ span {
 
 .social {
    float: right;
-   font-family: 'Raleway', sans-serif;
+   /*font-family: 'Raleway', sans-serif;*/
    padding-right: 4rem;
    line-height: 150%;
+}
 
+.social a {
+  text-decoration: none;
 }
 
 .social i {
@@ -323,8 +326,8 @@ span {
     vertical-align: middle;
 }
 .social {
-    padding: 0 10%;
-}
+    margin: auto;
+    width: 75%;}
 
 .social span {
 	display:none;

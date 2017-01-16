@@ -18,13 +18,16 @@
 }	
 
 .logo {
-	width:200px;
+  width: 18%;
+	/*width:200px;*/
 	float: left;
 }
 
 .cart {
-	width: 65px;
+  width: 6%;
+	/*width: 65px;*/
 	float: right;
+  padding-right: 4%;
 }
 
 .banner {
@@ -241,7 +244,7 @@ span {
 
 /*MOBILE RESPONSIVE SETTINGS!!!!!*/
 
-@media screen and (min-width: 400px) and (max-width:600px){
+@media screen and (min-width: 380px) and (max-width:600px){
 
 .logo {
     width: 25%;

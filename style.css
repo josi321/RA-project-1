@@ -242,6 +242,9 @@ span {
   margin-right: 1em;
 }
 
+.social span  {font-family: 'Raleway', sans-serif;
+font-weight: lighter;}
+
 /*MOBILE RESPONSIVE SETTINGS!!!!!*/
 
 @media screen and (min-width: 380px) and (max-width:600px){
